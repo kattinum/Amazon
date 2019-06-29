@@ -2,7 +2,7 @@
 Library  SeleniumLibrary
 
 *** Variables ***
-${USER_STATUS} =  xpath://*[@id="nav-link-accountList"]/span[1]
+${USER_STATUS} =  xpath://*[@id="nav-link-accountList"]
 ${PAGE_LOAD} =   Hello, Sign in
 
 *** Keywords ***

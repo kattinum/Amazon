@@ -12,6 +12,7 @@ Search for Products
     Submit Search
 
 Enter Search Term
+        click element  ${TopNav_SEARCH_PROD}
         input text  ${TopNav_SEARCH_PROD}  ${TopNav_SEARCH_TERM}
 Submit Search
         click element  ${TopNav_SEARCH_SUBMIT}

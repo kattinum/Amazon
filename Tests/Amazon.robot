@@ -13,11 +13,12 @@ Suite Teardown  Cleanup Testing Data
 *** Test Cases ***
 User can search for products
     [Documentation]  This is some basic info about test
-    [Tags]  Smoke
+    [Tags]  Smoke1
     AmazonApp.Search for products
 
 User must sign in to check out
-
+    [Documentation]  This is some basic info about test
+    [Tags]  Smoke2
     AmazonApp.Search for products
     Select Product from Search Results
     Add Product to Cart
@@ -30,5 +31,4 @@ Log out user must log in to check out
     And AmazonApp.Search for products
     And Select Product from Search Results
     When Add Product to Cart
-    Then Begin Checkout
-
+    Then Begin Checkout for Log in user

@@ -1,5 +1,6 @@
 *** Settings ***
 Library  SeleniumLibrary
+Resource  ./PO/LandingPage.robot
 
 *** Variables ***
 ${BROWSER} =  chrome
@@ -8,7 +9,7 @@ ${START_URL} =  https://www.amazon.com
 *** Keywords ***
 Begin Web Test
         open browser  about:blank  ${BROWSER}
-        #go to  http://www.amazon.com
+        Load
 
 
 End Web Test

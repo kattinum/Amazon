@@ -2,7 +2,7 @@
 Library  SeleniumLibrary
 
 *** Variables ***
-${SELECT_PROD} =  xpath://*[@id="search"]/div[1]/div[2]/div/span[3]/div[1]/div[1]/div/div/div/div/div/div[2]/div[2]/div/div/h2/a/span
+${SELECT_PROD} =  xpath://*[@id="search"]/div[1]/div[2]/div/span[3]/div[1]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div[1]/h2/a/span
 
 *** Keywords ***
 Verify Search Completed
