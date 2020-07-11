@@ -35,4 +35,4 @@ User must sign in to check out
 #    Then Begin Checkout for Log in user
 
 Feature-1 Test
-    Log  doing feature-1 from local
+    Log  doing feature-1 from github directly
