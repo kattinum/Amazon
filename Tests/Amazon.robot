@@ -13,7 +13,7 @@ Suite Teardown  Cleanup Testing Data
 
 *** Test Cases ***
 User can search for products
-    [Documentation]  This is some basic info about test correct
+    [Documentation]  This is some basic info about test
     [Tags]  Smoke1
     AmazonApp.Search for products
 
