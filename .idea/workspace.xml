@@ -6,16 +6,23 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adf134ca-9d94-4832-943d-aa3e869682d7" name="Default Changelist" comment="Amazon 1st commit" />
+    <list default="true" id="adf134ca-9d94-4832-943d-aa3e869682d7" name="Default Changelist" comment="Amazon 1st commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Amazon.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Amazon.robot" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +46,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
@@ -69,24 +77,34 @@
       <option name="project" value="LOCAL" />
       <updated>1561818340667</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Amazon 1st commit">
+      <created>1594478717972</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594478717972</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -95,7 +113,18 @@
       <map>
         <entry key="Branch">
           <value>
-            <list />
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
         <entry key="User">
@@ -112,26 +141,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="Amazon 1st commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="395" y="10" key="CommitChangelistDialog2" timestamp="1594478496191">
+    <state x="395" y="10" width="745" height="843" key="CommitChangelistDialog2" timestamp="1594479208796">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="395" y="10" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1594478496191" />
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1594478574752">
+    <state x="395" y="10" width="745" height="843" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1594479208796" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1594478987612">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1594478574752" />
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1594478987612" />
     <state x="647" y="330" width="374" height="259" key="Github.ShareDialog" timestamp="1594478608850">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="647" y="330" width="374" height="259" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1594478608850" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1594478371166">
+    <state x="573" y="134" key="RollbackChangesDialog" timestamp="1594479192342">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1594478371166" />
-    <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594478588481">
+    <state x="573" y="134" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1594479192342" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1594479475671">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1594478588481" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1594479475671" />
+    <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594479446799">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1594479446799" />
     <state x="567" y="324" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1594478555202">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
