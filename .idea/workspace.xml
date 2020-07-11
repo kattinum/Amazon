@@ -24,7 +24,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adf134ca-9d94-4832-943d-aa3e869682d7" name="Default Changelist" comment="Amazon 1st commit" />
+    <list default="true" id="adf134ca-9d94-4832-943d-aa3e869682d7" name="Default Changelist" comment="update workspace.xml">
+      <change beforePath="$PROJECT_DIR$/Tests/Amazon.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Amazon.robot" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594483950419</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update workspace.xml">
+      <created>1594484172570</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594484172570</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,10 +165,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="update workspace.xml" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="395" y="10" width="745" height="843" key="CommitChangelistDialog2" timestamp="1594479208796">
+    <state x="395" y="10" width="745" height="843" key="CommitChangelistDialog2" timestamp="1594484195880">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="395" y="10" width="745" height="843" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1594479208796" />
+    <state x="395" y="10" width="745" height="843" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1594484195880" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1594483172675">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -172,14 +181,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="573" y="134" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1594479192342" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1594483805277">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1594484267609">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1594483805277" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1594484267609" />
     <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594479446799">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1594479446799" />
+    <state x="500" y="221" key="git4idea.merge.GitPullDialog" timestamp="1594484215266">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="500" y="221" key="git4idea.merge.GitPullDialog/0.0.1536.864@0.0.1536.864" timestamp="1594484215266" />
     <state x="567" y="324" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1594478555202">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
