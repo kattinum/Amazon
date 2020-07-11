@@ -25,7 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adf134ca-9d94-4832-943d-aa3e869682d7" name="Default Changelist" comment="Amazon 1st commit">
-      <change beforePath="$PROJECT_DIR$/Tests/Amazon.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Amazon.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,10 +161,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="573" y="134" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1594479192342" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1594479475671">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1594483805277">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1594479475671" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1594483805277" />
     <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594479446799">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
