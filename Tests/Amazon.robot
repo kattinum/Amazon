@@ -25,11 +25,11 @@ User must sign in to check out
     AmazonApp.Add Product to Cart
     AmazonApp.Begin Checkout for Log out user
 
-Log out user must log in to check out
-    [Tags]  current
-
-    Given AmazonApp.User must log in
-    And AmazonApp.Search for products
-    And Select Product from Search Results
-    When Add Product to Cart
-    Then Begin Checkout for Log in user
+#Log out user must log in to check out
+#    [Tags]  current
+#
+#    Given AmazonApp.User must log in
+#    And AmazonApp.Search for products
+#    And Select Product from Search Results
+#    When Add Product to Cart
+#    Then Begin Checkout for Log in user
