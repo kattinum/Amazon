@@ -8,7 +8,8 @@ Test Teardown  End Web Test
 Suite Teardown  Cleanup Testing Data
 
 *** Variables ***
-
+@{USR_NAME}  id:ap_email  teammy1980@gmail.com
+@{PASSWD}  id:ap_password  team123
 
 *** Test Cases ***
 User can search for products
@@ -20,9 +21,9 @@ User must sign in to check out
     [Documentation]  This is some basic info about test
     [Tags]  Smoke2
     AmazonApp.Search for products
-    Select Product from Search Results
-    Add Product to Cart
-    Begin Checkout
+    AmazonApp.Select Product from Search Results
+    AmazonApp.Add Product to Cart
+    AmazonApp.Begin Checkout for Log out user
 
 Log out user must log in to check out
     [Tags]  current

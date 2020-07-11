@@ -3,12 +3,13 @@ Library  SeleniumLibrary
 Resource  ./PO/LandingPage.robot
 
 *** Variables ***
-${BROWSER} =  chrome
+${BROWSER} =  gc
 ${START_URL} =  https://www.amazon.com
 
 *** Keywords ***
 Begin Web Test
         open browser  about:blank  ${BROWSER}
+        maximize browser window
         Load
 
 

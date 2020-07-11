@@ -3,7 +3,7 @@ Library  SeleniumLibrary
 
 *** Variables ***
 ${ADD_PROD} =  id:add-to-cart-button
-${CHECK_OUT} =  xpath://*[@id="attach-sidesheet-checkout-button"]/span/input
+${CHECK_OUT} =  xpath://*[@id="hlb-ptc-btn-native"]
 
 *** Keywords ***
 Add to Cart

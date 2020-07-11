@@ -7,31 +7,35 @@ Resource  ../Resources/PO/Product.robot
 Resource  ../Resources/PO/Cart.robot
 Resource  ../Resources/PO/SignIn.robot
 
+*** Variables ***
+@{USR_NAME}  id:ap_email  teammy1980@gmail.com
+@{PASSWD}  id:ap_password  team123
 
 *** Keywords ***
 
-User must log in
-        #Load
-        #LandingPage.Verify Page Loaded
-        Login With Valid Credentials
+#Log in
+#        [Arguments]  @{USR_NAME}  @{PASSWD}
+#        SignIn.Login after check out product  @{USR_NAME}  @{PASSWD}
 
 Search for products
         TopNav.Search for Products
        # LandingPage.Verify Page Loaded
-        Verify Search Completed
+        SearchResults.Verify Search Completed
 
 Select Product from Search Results
-        Click Product link
+        SearchResults.Click Product link
         Product.Verify Page Loaded
 
 Add Product to Cart
-        Add to Cart
-        Verify Product Added
+        Cart.Add to Cart
+        Cart.Verify Product Added
         #element text should be  xpath://*[@id="hlb-subcart"]/div[1]/span/span[1]  Cart subtotal (1 item):  ignore_case=True
 
 Begin Checkout for Log out user
-        Proceed to Checkout
+        Cart.Proceed to Checkout
         SignIn.Verify Page Loaded
+        SignIn.Login after check out product
+        SignIn.Verify Page Loaded for Log In user
 
 Begin Checkout for Log in user
         Proceed to Checkout
