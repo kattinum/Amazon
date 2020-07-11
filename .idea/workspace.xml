@@ -24,9 +24,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adf134ca-9d94-4832-943d-aa3e869682d7" name="Default Changelist" comment="Amazon 1st commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="adf134ca-9d94-4832-943d-aa3e869682d7" name="Default Changelist" comment="Amazon 1st commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +32,11 @@
   </component>
   <component name="ChangesViewManager" show_ignored="true" />
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Feature-1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectConfigurationFiles">
@@ -88,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594478717972</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update workspace.xml">
+      <created>1594483950419</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594483950419</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,7 +152,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Amazon 1st commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Amazon 1st commit" />
+    <MESSAGE value="update workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="update workspace.xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="10" width="745" height="843" key="CommitChangelistDialog2" timestamp="1594479208796">
