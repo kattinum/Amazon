@@ -33,3 +33,6 @@ User must sign in to check out
 #    And Select Product from Search Results
 #    When Add Product to Cart
 #    Then Begin Checkout for Log in user
+
+Feature-1 Test
+    Log  doing feature-1
