@@ -13,6 +13,7 @@ ${GREETING_MSG}  Hello, kattinum
 *** Keywords ***
 Verify Page Loaded
     wait until page contains  Sign-In
+    sleep  3s
 
 #Login before check out product
 #
