@@ -4,14 +4,14 @@ pipeline {
 //		stage('Checkout Code') {
 //            steps {
 //                cleanWs()
-//                git branch: "master", credentialsId:'d5509d5e-9c34-4bbe-9989-2538033c86fb', url:'https://kattinum@bitbucket.org/kattinum/Amazon.git'
+//                git branch: "master", credentialsId:'d5509d5e-9c34-4bbe-9989-2538033c86fb', url:'https://kattinum@bitbucket.org/kattinum/rfdocker.git'
 //            }
 //        }
 		stage('Functional regression tests') {
             steps {
 				timeout(time: 30, unit: 'MINUTES'){
 					retry(5){
-					  bat label: '', script: 'docker run -v %WORKSPACE%:/opt/robotframework/tests:Z -v %WORKSPACE%:/opt/robotframework/reports:Z  -e ROBOT_TEST_RUN_ID="/Results" -e BROWSER=chrome -v /dev/shm:/dev/shm -e ROBOT_OPTIONS="--loglevel TRACE --name AmazonTesting -s *Amazon" kattinum/rfdocker:0.9'	
+					  bat label: '', script: 'docker run -v %WORKSPACE%:/opt/robotframework/tests:Z -v %WORKSPACE%:/opt/robotframework/reports:Z  -e ROBOT_TEST_RUN_ID="/Results" -e BROWSER=chrome -v /dev/shm:/dev/shm -e ROBOT_OPTIONS="--loglevel TRACE --name AmazonTesting -s *Amazon" kattinum/rfdocker:0.3'	
 				script{
 					  zip zipFile: 'results.zip', archive: false, dir: 'Results', glob: '*.*'
                       step(
@@ -29,7 +29,7 @@ pipeline {
                         )
 				script{		
 						   def mailRecipients = "kattinum@yahoo.com"			
-//					       def mailRecipients = "kattinum@yahoo.com"
+//					       def mailRecipients = "kamol.khlaichinda@prudential.co.th, Taradate.Narucharnpattarat@prudential.co.th, Akkares.Thangwattanarat@prudential.co.th, Thuchisinee.Kitudomrat@prudential.co.th, Methinee.Paemthong@prudential.co.th, Chayada.Chanpen@prudential.co.th, Prakasit.Lecawiput@prudential.co.th, Sirakan.Buapud@prudential.co.th"
 					       def jobName = currentBuild.fullDisplayName
 					       def jobStatus = currentBuild.currentResult
 					       emailext body: '''${SCRIPT, template="robot-org.template"}''',
