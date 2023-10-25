@@ -4,7 +4,7 @@ pipeline {
 //		stage('Checkout Code') {
 //            steps {
 //                cleanWs()
-//                git branch: "master", credentialsId:'d5509d5e-9c34-4bbe-9989-2538033c86fb', url:'https://kattinum@bitbucket.org/kattinum/Amazon.git'
+//                git branch: "master", credentialsId:'d5509d5e-9c34-4bbe-9989-2538033c86fb', url:'https://github.com/kattinum/Amazon.git'
 //            }
 //        }
 		stage('Functional regression tests') {
