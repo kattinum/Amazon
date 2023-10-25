@@ -38,7 +38,7 @@ pipeline {
 								   subject: "[Jenkins]Amazon:Build${jobName}-${jobStatus}", 
 								   to: "${mailRecipients}",								   
 								   attachmentsPattern: 'results.zip'
-					       archiveArtifacts artifacts: 'Results/*.html', onlyIfSuccessful: false
+//					       archiveArtifacts artifacts: 'Results/*.html', onlyIfSuccessful: false
 						  }
 							
 						} 		
